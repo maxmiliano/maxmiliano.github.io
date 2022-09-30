@@ -1,6 +1,9 @@
 ---
+layout: post
 title: "Hello, World!
-date: 2022-09-30
+subtile: "Does it make sense writing 'Hello, World!' as my first post?"
+tags: [ruby, helloWorld, code]
+comments: true
 ---
 
 # Welcome
