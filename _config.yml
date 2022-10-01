@@ -1,7 +1,15 @@
 remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
 title: Hello Max!
-description: Hello World! My name is Maxmiliano but you can call me Max. I’m a Software Engineer working with Ruby on Rails and a bunch of other technologies.
+description: "Hello World! My name is Maxmiliano, but you can call me <b>Max</b>. I’m a <b>Software Engineer</b> working with <b>Ruby on Rails</b> and a bunch of other technologies."
 show_downloads: false
 author: Max Braga
+excerpt_separator: <!--more-->
+# paginate: 10
+#paginate_path: "/blog/page:num/"
+
+plugins:
+- jekyll-remote-theme
+- jekyll-feed
+- jekyll-sso-tag
+- jekyll-sitemap
+# - jekyll-paginate-v2
