@@ -12,4 +12,5 @@ plugins:
 - jekyll-feed
 - jekyll-sso-tag
 - jekyll-sitemap
+- jekyll-spaceship
 # - jekyll-paginate-v2
