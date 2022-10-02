@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-spaceship'
   gem 'jekyll-paginate'
+  gem 'jekyll-archives'
 end

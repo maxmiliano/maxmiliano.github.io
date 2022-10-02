@@ -8,6 +8,7 @@ teaser: /assets/images/
 search: true
 lunr:
   search_within_pages: true
+timezone: America/Sao_Paulo
 
 paginate: 5
 paginate_path: /page:num/
@@ -20,6 +21,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-spaceship
 - jekyll-paginate
+- jekyll-archives
 
 comments:
   provider: "utterances"
