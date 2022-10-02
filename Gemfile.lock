@@ -265,6 +265,8 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-include-cache
+  jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-spaceship

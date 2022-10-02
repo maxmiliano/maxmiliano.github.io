@@ -1,0 +1,18 @@
+Max:
+  name        : "Max Braga"
+  bio         : "**Software Engineer** working with **Ruby on Rails** and a bunch of other technologies."
+  avatar      : "/assets/images/hello_max-cartoon-400x400.jpg"
+  location    : "Goiania, GO, Brazil"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:maxmiliano@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hellomax.me"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/max-braga/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maxmiliano"

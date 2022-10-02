@@ -1,15 +1,13 @@
 ---
-title: Hello, World!
+title: Hello World!
 subtile: "Does it make sense writing 'Hello, World!' as my first post?"
 author: Max
 tags: [ruby, helloWorld, code]
 comments: true
-layout: post
+related: false
 ---
 
-## Welcome
-
-**Hello World**, this my first blog post.
+:wave: **Hello there**, this my first blog post.
 
 ~~~ruby
 class HelloWorld

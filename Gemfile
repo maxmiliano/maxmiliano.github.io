@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "github-pages"
+  gem 'jekyll-include-cache'
   gem 'jekyll-spaceship'
-  # gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate'
 end

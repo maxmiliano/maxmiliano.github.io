@@ -1,16 +1,44 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 title: Hello Max!
-description: "Hello World! My name is Maxmiliano, but you can call me <b>Max</b>. I’m a <b>Software Engineer</b> working with <b>Ruby on Rails</b> and a bunch of other technologies."
-show_downloads: false
-author: Max Braga
+title_separator: "|"
+author: Max
 excerpt_separator: <!--more-->
-# paginate: 10
-#paginate_path: "/blog/page:num/"
+repository: maxmiliano/maxmiliano.github.io
+teaser: /assets/images/
+search: true
+lunr:
+  search_within_pages: true
+
+paginate: 5
+paginate_path: /page:num/
 
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
 - jekyll-feed
 - jekyll-sso-tag
 - jekyll-sitemap
 - jekyll-spaceship
-# - jekyll-paginate-v2
+- jekyll-paginate
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+    label: "comment"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      author: Max
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
