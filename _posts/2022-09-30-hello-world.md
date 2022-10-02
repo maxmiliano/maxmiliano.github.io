@@ -9,7 +9,7 @@ header:
   teaser: assets/images/hello-world-ruby-code.png
 ---
 
-:wave: **Hello there**, this my first blog post.
+**Hello there**, this my first blog post.
 
 ~~~ruby
 class HelloWorld
