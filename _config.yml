@@ -13,6 +13,12 @@ timezone: America/Sao_Paulo
 paginate: 5
 paginate_path: /page:num/
 
+analytics:
+  provider: 'google-gtag'
+  google:
+    tracking_id: 'G-X394QPY08W'
+    anonymize_ip: false
+
 plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
