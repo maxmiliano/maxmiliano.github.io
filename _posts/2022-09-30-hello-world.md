@@ -5,6 +5,7 @@ author: Max
 tags: ruby helloWorld code
 comments: true
 related: false
+excerpt_separator: <!--more-->
 header:
   teaser: assets/images/hello-world-ruby-code.png
 ---
