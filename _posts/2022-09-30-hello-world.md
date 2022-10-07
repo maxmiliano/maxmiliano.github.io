@@ -2,7 +2,10 @@
 title: Hello World!
 subtile: "Does it make sense writing 'Hello, World!' as my first post?"
 author: Max
-tags: ruby helloWorld code
+tags: 
+  - ruby 
+  - helloWorld 
+  - code
 comments: true
 related: false
 excerpt_separator: <!--more-->
