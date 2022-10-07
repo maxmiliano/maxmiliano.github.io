@@ -1,13 +1,16 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: "air"
 title: Hello Max!
 title_separator: "|"
 author: Max
-excerpt_separator: <!--more-->
+url: "https://hellomax.me"
+baseurl: 
 repository: maxmiliano/maxmiliano.github.io
 teaser: /assets/images/
 search: true
 lunr:
   search_within_pages: true
+
 timezone: America/Sao_Paulo
 
 paginate: 5
@@ -20,6 +23,7 @@ analytics:
     anonymize_ip: false
 
 plugins:
+  # - github-pages
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-feed
@@ -52,17 +56,17 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# jekyl-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-#
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+include:
+  - _pages
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 defaults:
   # _posts
   - scope:
