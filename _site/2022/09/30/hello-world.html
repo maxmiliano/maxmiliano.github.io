@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
   Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
---><html lang="en" class="no-js">
+-->
+<html lang="en" class="no-js">
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Hello World! | Hello Max!</title>
-<meta name="description" content='Hello there, this my first blog post.  class HelloWorld    def initialize(name)       @name = name.capitalize    end    def say       puts "Hello #{@name}!"    end end  hello = HelloWorld.new("Max") hello.say'>
+<meta name="description" content="Hello there, this my first blog post.  class HelloWorld    def initialize(name)       @name = name.capitalize    end    def say       puts &quot;Hello #{@name}!&quot;    end end  hello = HelloWorld.new(&quot;Max&quot;) hello.say">
 
 
   <meta name="author" content="Max Braga">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/2022/09/30/hello-world.html">
 
 
-  <meta property="og:description" content='Hello there, this my first blog post.  class HelloWorld    def initialize(name)       @name = name.capitalize    end    def say       puts "Hello #{@name}!"    end end  hello = HelloWorld.new("Max") hello.say'>
+  <meta property="og:description" content="Hello there, this my first blog post.  class HelloWorld    def initialize(name)       @name = name.capitalize    end    def say       puts &quot;Hello #{@name}!&quot;    end end  hello = HelloWorld.new(&quot;Max&quot;) hello.say">
 
 
 
@@ -103,10 +103,6 @@
   </ul>
 </nav>
 
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
     
 
 <div class="masthead">
@@ -118,7 +114,15 @@
           Hello Max!
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
@@ -183,7 +187,7 @@
       
         
           
-            <li><a href="mailto:maxmiliano@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+            <li><a href="mailto:maxmiliano@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
         
           
@@ -196,6 +200,14 @@
         
           
             <li><a href="https://github.com/maxmiliano" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/helloMaxDev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://www.tiktok.com/@hellomaxdev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-tiktok" aria-hidden="true"></i><span class="label">TikTok</span></a></li>
           
         
       
@@ -332,6 +344,25 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#code" class="page__taxonomy-item" rel="tag">code</a><span class="sep">, </span>
+    
+      <a href="/tags/#helloworld" class="page__taxonomy-item" rel="tag">helloWorld</a><span class="sep">, </span>
+    
+      <a href="/tags/#ruby" class="page__taxonomy-item" rel="tag">ruby</a>
+    
+    </span>
+  </p>
+
+
 
 
         
@@ -365,18 +396,16 @@
     </div>
 
     
-      <div class="search-content">
-        <div class="search-content__inner-wrap">
-<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <div class="search-content">
+      <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
     <label class="sr-only" for="search">
       Enter your search term...
     </label>
-    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
   </form>
-  <div id="results" class="results"></div>
-</div>
+  <div id="results" class="results"></div></div>
 
-      </div>
+    </div>
     
 
     <div id="footer" class="page__footer">
@@ -396,7 +425,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">© 2022 Hello Max!. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Hello Max!. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -1,13 +1,16 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: "air"
 title: Hello Max!
 title_separator: "|"
 author: Max
-excerpt_separator: <!--more-->
+url: "https://hellomax.me"
+baseurl: 
 repository: maxmiliano/maxmiliano.github.io
 teaser: /assets/images/
 search: true
 lunr:
   search_within_pages: true
+
 timezone: America/Sao_Paulo
 
 paginate: 5
@@ -20,14 +23,23 @@ analytics:
     anonymize_ip: false
 
 plugins:
-- jekyll-remote-theme
-- jekyll-include-cache
-- jekyll-feed
-- jekyll-sso-tag
-- jekyll-sitemap
-- jekyll-spaceship
-- jekyll-paginate
-- jekyll-archives
+  # - github-pages
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sso-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 comments:
   provider: "utterances"
@@ -35,6 +47,25 @@ comments:
     theme: "github-light"
     issue_term: "pathname"
     label: "comment"
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+include:
+  - _pages
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 defaults:
   # _posts
@@ -50,3 +81,4 @@ defaults:
       comments: true
       share: true
       related: true
+

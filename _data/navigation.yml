@@ -1,0 +1,10 @@
+main:
+  - title: "Home"
+    url: /
+    icon: "fas fa-fw fa-link"
+  - title: "Posts"
+    url: /archives/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/ 

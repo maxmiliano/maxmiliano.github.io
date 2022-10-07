@@ -5,7 +5,7 @@ Max:
   location    : "Goiania, GO, Brazil"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:maxmiliano@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -16,3 +16,9 @@ Max:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maxmiliano"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/helloMaxDev"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://www.tiktok.com/@hellomaxdev"

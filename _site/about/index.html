@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Hello Max!</title>
+<!-- begin _includes/seo.html --><title>About | Hello Max!</title>
 <meta name="description" content="">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hello Max!">
-<meta property="og:title" content="Hello Max!">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="About">
+<meta property="og:url" content="http://localhost:4000/about/">
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/about/">
 
 
 
@@ -86,7 +86,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -134,6 +134,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -266,91 +268,54 @@
 
 
 
-  <div class="archive">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="About">
+    <!--  -->
     
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
-  
     
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-      <a href="/2022/09/30/hello-world.html" rel="permalink">Hello World!
+      <header>
+        <h1 id="page-title" class="page__title p-name" itemprop="headline">
+          <a href="http://localhost:4000/about/" class="u-url" itemprop="url">About
 </a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        </h1>
         
-        <time datetime="2022-09-30T00:00:00-03:00">September 30, 2022</time>
-      </span>
-    
 
-    <span class="page__meta-sep"></span>
 
-    
-      
+      </header>
       
 
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+      <section class="page__content e-content" itemprop="text">
         
-          less than 1 minute read
+        <p>I decided to create this blog to write about technologies I use and challenges I face.</p>
+
+<p>I hope the content I create can be useful for someone else. I also expect that producing it could help me to improve my own knowledge and skills while pushing me to study more.</p>
+
         
-      </span>
-    
-  </p>
+      </section>
+
+      <footer class="page__meta">
+        
+        
 
 
-    
-    
-      <p class="archive__item-excerpt" itemprop="description">
-        <p><strong>Hello there</strong>, this my first blog post.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">HelloWorld</span>
-   <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-      <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span><span class="p">.</span><span class="nf">capitalize</span>
-   <span class="k">end</span>
-   <span class="k">def</span> <span class="nf">say</span>
-      <span class="nb">puts</span> <span class="s2">"Hello </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">!"</span>
-   <span class="k">end</span>
-<span class="k">end</span>
-
-<span class="n">hello</span> <span class="o">=</span> <span class="no">HelloWorld</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"Max"</span><span class="p">)</span>
-<span class="n">hello</span><span class="p">.</span><span class="nf">say</span>
-</code></pre></div></div>
+        
 
 
-      </p>
+      </footer>
+
+      
+
+      
+    </div>
+
     
   </article>
-</div>
 
   
-</div>
-
-
-
-
-  </div>
+  
 </div>
 
     </div>

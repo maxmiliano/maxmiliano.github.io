@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Hello Max!</title>
+<!-- begin _includes/seo.html --><title>Posts by Category | Hello Max!</title>
 <meta name="description" content="">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hello Max!">
-<meta property="og:title" content="Hello Max!">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Posts by Category">
+<meta property="og:url" content="http://localhost:4000/categories/">
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/categories/">
 
 
 
@@ -86,7 +86,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--categories">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -268,84 +268,17 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Posts by Category</h1>
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
 
 
 
 
-<div class="entries-list">
+<ul class="taxonomy__index">
   
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-      <a href="/2022/09/30/hello-world.html" rel="permalink">Hello World!
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2022-09-30T00:00:00-03:00">September 30, 2022</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    
-    
-      <p class="archive__item-excerpt" itemprop="description">
-        <p><strong>Hello there</strong>, this my first blog post.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">HelloWorld</span>
-   <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-      <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span><span class="p">.</span><span class="nf">capitalize</span>
-   <span class="k">end</span>
-   <span class="k">def</span> <span class="nf">say</span>
-      <span class="nb">puts</span> <span class="s2">"Hello </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">!"</span>
-   <span class="k">end</span>
-<span class="k">end</span>
-
-<span class="n">hello</span> <span class="o">=</span> <span class="no">HelloWorld</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"Max"</span><span class="p">)</span>
-<span class="n">hello</span><span class="p">.</span><span class="nf">say</span>
-</code></pre></div></div>
-
-
-      </p>
-    
-  </article>
-</div>
-
-  
-</div>
+</ul>
 
 
 
