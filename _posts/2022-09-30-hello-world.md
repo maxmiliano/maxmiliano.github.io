@@ -3,12 +3,11 @@ title: Hello World!
 subtile: "Does it make sense writing 'Hello, World!' as my first post?"
 author: Max
 tags: 
-  - ruby 
-  - helloWorld 
+  - Ruby 
+  - hello_world 
   - code
 comments: true
-related: false
-excerpt_separator: <!--more-->
+related: true
 header:
   teaser: assets/images/hello-world-ruby-code.png
 ---
@@ -28,4 +27,3 @@ end
 hello = HelloWorld.new("Max")
 hello.say
 ~~~
-<!--more-->
