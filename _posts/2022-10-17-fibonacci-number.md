@@ -15,18 +15,18 @@ The Fibonacci Number is another common code challenge and it has some simililrat
 In this videos I show three ways to implement a solution for this problem following similar approaches: iterative loop, recursion and using `inject` (which is also iterative, but it's cooler). 
 {% include video id="SBow7lLfI1Q" provider="youtube" %}
 
-Iterative (`upto` loop):
+1. Iterative (`upto` loop):
 ~~~ruby
 def fibo(n)
   seq = [0, 1]
   2.upto(n).each do |i|
-    set[i] = seq[i-1] + seq[i-2]
+    seq[i] = seq[i-1] + seq[i-2]
   end
   seq[n]
 end
 ~~~
 
-Recursive:
+1. Recursive:
 ~~~ruby
 def fibo(n)
   return n if n <= 1
@@ -34,7 +34,7 @@ def fibo(n)
 end
 ~~~
 
-Using `inject`:
+1. Using `inject`:
 ~~~ruby
 def fibo(n)
   return n if n <= 1
