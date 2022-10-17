@@ -10,10 +10,13 @@ var store = [{
         "tags": ["GitHub","meta"],
         "url": "/2022/10/07/how-this-blog-was-built.html",
         "teaser": "/assets/images/hello-world-ruby-code.png"
+<<<<<<< HEAD
       },{
         "title": "Factorial Number code challenge",
         "excerpt":"Finding the Factaorial Number is a common and simple challenge. Though it’s easy to solve I find it interesting because it allows us to solve it in different ways that explore a few programming concepts. In this video I show three different ways to solve this challenge. Check it out!...","categories": [],
         "tags": ["Ruby","code challenge","YouTube","code"],
         "url": "/2022/10/09/factorial-number-challenge.html",
         "teaser": "/assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png"
+=======
+>>>>>>> 2ca15c4... Created post "Fibonacci Challenge"
       }]
