@@ -12,8 +12,14 @@ var store = [{
         "teaser": "/assets/images/hello-world-ruby-code.png"
       },{
         "title": "Factorial Number code challenge",
-        "excerpt":"Finding the Factaorial Number is a common and simple challenge. Though it’s easy to solve I find it interesting because it allows us to solve it in different ways that explore a few programming concepts. In this video I show three different ways to solve this challenge. Check it out!...","categories": [],
+        "excerpt":"Finding the Factorial Number is a common and simple challenge. Though it’s easy to solve I find it interesting because it allows us to solve it in different ways that explore a few programming concepts. In this video I show three different ways to solve this challenge. Check it out!...","categories": [],
         "tags": ["Ruby","code challenge","YouTube","code"],
         "url": "/2022/10/09/factorial-number-challenge.html",
         "teaser": "/assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png"
+      },{
+        "title": "Fibonacci Number code challenge",
+        "excerpt":"The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved. In this videos I show three ways to implement a solution for this problem following similar approaches: iterative loop, recursion and using inject (which is also iterative, but it’s cooler)....","categories": [],
+        "tags": ["Ruby","code challenge","code"],
+        "url": "/2022/10/17/fibonacci-number.html",
+        "teaser": "/assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png"
       }]

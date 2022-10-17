@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>How this blog was built | Hello Max!</title>
-<meta name="description" content="This blog is hosted on GitHub Pages and it was built with Jekyll following a tutorial from GitHub Skills. Jekyll is a static site generator that was made to be easy to use by developers. If you also want to quickly build a programming blog or a portfolio site to showcase your projects I would definetely recoment it for you.">
+<!-- begin _includes/seo.html --><title>Fibonacci Number code challenge | Hello Max!</title>
+<meta name="description" content="The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved.">
 
 
   <meta name="author" content="Max Braga">
@@ -22,28 +22,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hello Max!">
-<meta property="og:title" content="How this blog was built">
-<meta property="og:url" content="http://localhost:4000/2022/10/07/how-this-blog-was-built.html">
+<meta property="og:title" content="Fibonacci Number code challenge">
+<meta property="og:url" content="http://localhost:4000/2022/10/17/fibonacci-number.html">
 
 
-  <meta property="og:description" content="This blog is hosted on GitHub Pages and it was built with Jekyll following a tutorial from GitHub Skills. Jekyll is a static site generator that was made to be easy to use by developers. If you also want to quickly build a programming blog or a portfolio site to showcase your projects I would definetely recoment it for you.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/hello-world-ruby-code.png">
+  <meta property="og:description" content="The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved.">
 
 
 
-
-
-  <meta property="article:published_time" content="2022-10-07T00:00:00-03:00">
+  <meta property="og:image" content="http://localhost:4000/assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png">
 
 
 
 
 
+  <meta property="article:published_time" content="2022-10-17T00:00:00-03:00">
 
-<link rel="canonical" href="http://localhost:4000/2022/10/07/how-this-blog-was-built.html">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2022/10/17/fibonacci-number.html">
 
 
 
@@ -277,16 +277,16 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="How this blog was built">
-    <!-- <meta itemprop="description" content="This blog is hosted on GitHub Pages and it was built with Jekyll following a tutorial from GitHub Skills. Jekyll is a static site generator that was made to be easy to use by developers. If you also want to quickly build a programming blog or a portfolio site to showcase your projects I would definetely recoment it for you."> -->
-    <meta itemprop="datePublished" content="2022-10-07T00:00:00-03:00">
+    <meta itemprop="headline" content="Fibonacci Number code challenge">
+    <!-- <meta itemprop="description" content="The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved."> -->
+    <meta itemprop="datePublished" content="2022-10-17T00:00:00-03:00">
     
 
     <div class="page__inner-wrap">
       
       <header>
         <h1 id="page-title" class="page__title p-name" itemprop="headline">
-          <a href="http://localhost:4000/2022/10/07/how-this-blog-was-built.html" class="u-url" itemprop="url">How this blog was built
+          <a href="http://localhost:4000/2022/10/17/fibonacci-number.html" class="u-url" itemprop="url">Fibonacci Number code challenge
 </a>
         </h1>
         
@@ -297,7 +297,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2022-10-07T00:00:00-03:00">October 7, 2022</time>
+        <time datetime="2022-10-17T00:00:00-03:00">October 17, 2022</time>
       </span>
     
 
@@ -322,11 +322,42 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>This blog is hosted on GitHub Pages and it was built with <a href="https://jekyllrb.com/">Jekyll</a> following a <a href="https://github.com/skills/github-pages">tutorial</a> from <a href="https://github.com/skills">GitHub Skills</a>. Jekyll is a static site generator that was made to be easy to use by developers. If you also want to quickly build a programming blog or a portfolio site to showcase your projects I would definetely recoment it for you.</p>
+        <p>The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved.</p>
 
-<p>The layout and style is mostly based on <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes Theme</a> with just a little tweaks and changes.</p>
+<p>In this videos I show three ways to implement a solution for this problem following similar approaches: iterative loop, recursion and using <code class="language-plaintext highlighter-rouge">inject</code> (which is also iterative, but it’s cooler).</p>
 
-<p>I plan to start posting regularly about my favorite programming language (wich is Ruby by the way), algorithms, coding challenges and Software Engineering topics.</p>
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/SBow7lLfI1Q" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<ol>
+  <li>Iterative (<code class="language-plaintext highlighter-rouge">upto</code> loop):
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+  <span class="n">seq</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+  <span class="mi">2</span><span class="p">.</span><span class="nf">upto</span><span class="p">(</span><span class="n">n</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span>
+ <span class="n">seq</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">seq</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+  <span class="k">end</span>
+  <span class="n">seq</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+<span class="k">end</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Recursive:
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">n</span> <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+  <span class="n">fibo</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fibo</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>  
+<span class="k">end</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Using <code class="language-plaintext highlighter-rouge">inject</code>:
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">n</span> <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+  <span class="p">(</span><span class="mi">2</span><span class="o">..</span><span class="n">n</span><span class="p">).</span><span class="nf">inject</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]){</span><span class="o">|</span><span class="n">fib</span><span class="o">|</span> <span class="n">fib</span> <span class="o">&lt;&lt;</span> <span class="n">fib</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">fib</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]}[</span><span class="n">n</span><span class="p">]</span>
+<span class="k">end</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
 
         
       </section>
@@ -343,9 +374,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#github" class="page__taxonomy-item" rel="tag">GitHub</a><span class="sep">, </span>
+      <a href="/tags/#code" class="page__taxonomy-item" rel="tag">code</a><span class="sep">, </span>
     
-      <a href="/tags/#meta" class="page__taxonomy-item" rel="tag">meta</a>
+      <a href="/tags/#code-challenge" class="page__taxonomy-item" rel="tag">code challenge</a><span class="sep">, </span>
+    
+      <a href="/tags/#ruby" class="page__taxonomy-item" rel="tag">Ruby</a>
     
     </span>
   </p>
@@ -355,7 +388,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-10-07T00:00:00-03:00">October 7, 2022</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-10-17T00:00:00-03:00">October 17, 2022</time></p>
 
 
       </footer>
@@ -363,23 +396,22 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=How+this+blog+was+built%20http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F07%2Fhow-this-blog-was-built.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Fibonacci+Number+code+challenge%20http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F17%2Ffibonacci-number.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F07%2Fhow-this-blog-was-built.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F17%2Ffibonacci-number.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F07%2Fhow-this-blog-was-built.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2022%2F10%2F17%2Ffibonacci-number.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/2022/09/30/hello-world.html" class="pagination--pager" title="Hello World!
+      <a href="/2022/10/09/factorial-number-challenge.html" class="pagination--pager" title="Factorial Number code challenge
 ">Previous</a>
     
     
-      <a href="/2022/10/09/factorial-number-challenge.html" class="pagination--pager" title="Factorial Number code challenge
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -393,63 +425,6 @@
   <div class="page__related">
     <h2 class="page__related-title">You May Also Enjoy</h2>
     <div class="grid__wrapper">
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <div class="archive__item-teaser">
-      <img src="/assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png" alt="">
-    </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-      <a href="/2022/10/17/fibonacci-number.html" rel="permalink">Fibonacci Number code challenge
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2022-10-17T00:00:00-03:00">October 17, 2022</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    
-    
-      <p class="archive__item-excerpt" itemprop="description">
-        The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved.
-
-
-      </p>
-    
-  </article>
-</div>
-
       
       
 
@@ -500,6 +475,61 @@
     
       <p class="archive__item-excerpt" itemprop="description">
         Finding the Factorial Number is a common and simple challenge. Though it’s easy to solve I find it interesting because it allows us to solve it in different ...
+      </p>
+    
+  </article>
+</div>
+
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <div class="archive__item-teaser">
+      <img src="/assets/images/hello-world-ruby-code.png" alt="">
+    </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+      <a href="/2022/10/07/how-this-blog-was-built.html" rel="permalink">How this blog was built
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-07T00:00:00-03:00">October 7, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    
+    
+      <p class="archive__item-excerpt" itemprop="description">
+        This blog is hosted on GitHub Pages and it was built with Jekyll following a tutorial from GitHub Skills. Jekyll is a static site generator that was made to ...
       </p>
     
   </article>
