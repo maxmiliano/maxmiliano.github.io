@@ -19,7 +19,13 @@ var store = [{
       },{
         "title": "Fibonacci Number code challenge",
         "excerpt":"The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved. In this videos I show three ways to implement a solution for this problem following similar approaches: iterative loop, recursion and using inject (which is also iterative, but it’s cooler)....","categories": [],
-        "tags": ["Ruby","code challenge","code"],
+        "tags": ["Ruby","code challenge","code","YouTube"],
         "url": "/2022/10/17/fibonacci-number.html",
         "teaser": "/assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png"
+      },{
+        "title": "The Basics of Recursion in Ruby",
+        "excerpt":"Recursion is a powerful concept in programming that allows a function to call itself repeatedly until a specific condition is met. This can be a useful tool in solving complex problems, but it can also be tricky to understand and implement. In Ruby, recursion is typically implemented using a base...","categories": [],
+        "tags": ["Ruby","computer science","code"],
+        "url": "/2022/12/14/the-basics-of-recursion-in-ruby.html",
+        "teaser": "/assets/images/stained-glass-1181864_1920.jpg"
       }]

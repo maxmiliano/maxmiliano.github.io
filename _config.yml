@@ -6,6 +6,7 @@ author: Max
 url: "https://hellomax.me"
 baseurl: 
 repository: maxmiliano/maxmiliano.github.io
+# future: true
 teaser: /assets/images/
 search: true
 lunr:
