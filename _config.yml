@@ -4,7 +4,6 @@ title: Hello Max!
 title_separator: "|"
 author: Max
 url: "https://hellomax.me"
-baseurl: 
 repository: maxmiliano/maxmiliano.github.io
 # future: true
 teaser: /assets/images/
