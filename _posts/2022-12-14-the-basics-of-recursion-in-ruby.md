@@ -27,10 +27,7 @@ end
 
 puts factorial(5) # Outputs 120
 ~~~
-<<<<<<< HEAD
-=======
 
->>>>>>> 1f8cb9c (Ruby and Rails: a love story")
 In this example, the base case is when n is 0 or 1, in which case the factorial is simply 1. In the recursive case, the function calls itself with the input of n-1, effectively breaking down the problem into smaller and smaller pieces until it reaches the base case.
 
 One important thing to keep in mind with recursion is to ensure that the base case is properly defined, otherwise the function will continue to call itself indefinitely and result in a stack overflow error.
