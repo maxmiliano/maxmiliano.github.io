@@ -28,4 +28,16 @@ var store = [{
         "tags": ["Ruby","computer science","code"],
         "url": "/2022/12/14/the-basics-of-recursion-in-ruby.html",
         "teaser": "/assets/images/stained-glass-1181864_1920.jpg"
+      },{
+        "title": "Ruby and Rails: A Love Story",
+        "excerpt":"It all began in the mid-1990s, when Japanese programmer Yukihiro “Matz” Matsumoto set out to create a new programming language. He wanted a language that balanced functional programming with imperative programming, and that would be more powerful and user-friendly than existing languages. After much experimentation and refinement, he created Ruby,...","categories": [],
+        "tags": ["Ruby","computer science","Rails"],
+        "url": "/2022/12/20/ruby-and-rails-a-love-story.html",
+        "teaser": "/assets/images/jewelry-625725_1920.jpg"
+      },{
+        "title": "Get Started with Ruby on Rails and Create a Travel CRUD",
+        "excerpt":"Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features, such as the ability to create, read, update, and delete (CRUD) data. In this article, we’ll show you how to create a simple CRUD web application for a travel domain...","categories": [],
+        "tags": ["Ruby","computer science","code","CRUD","programming"],
+        "url": "/2022/12/27/get-started-with-ruby-on-rails.html",
+        "teaser": "/assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg"
       }]

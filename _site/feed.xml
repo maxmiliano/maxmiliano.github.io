@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-14T20:28:52-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hello Max!</title><author><name>Max</name></author><entry><title type="html">The Basics of Recursion in Ruby</title><link href="http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby.html" rel="alternate" type="text/html" title="The Basics of Recursion in Ruby" /><published>2022-12-14T00:00:00-03:00</published><updated>2022-12-14T00:00:00-03:00</updated><id>http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby</id><content type="html" xml:base="http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby.html">&lt;p&gt;Recursion is a powerful concept in programming that allows a function to call itself repeatedly until a specific condition is met. This can be a useful tool in solving complex problems, but it can also be tricky to understand and implement.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-15T21:22:09-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hello Max!</title><author><name>Max</name></author><entry><title type="html">Get Started with Ruby on Rails and Create a Travel CRUD</title><link href="http://localhost:4000/2022/12/27/get-started-with-ruby-on-rails.html" rel="alternate" type="text/html" title="Get Started with Ruby on Rails and Create a Travel CRUD" /><published>2022-12-27T00:00:00-03:00</published><updated>2022-12-27T00:00:00-03:00</updated><id>http://localhost:4000/2022/12/27/get-started-with-ruby-on-rails</id><content type="html" xml:base="http://localhost:4000/2022/12/27/get-started-with-ruby-on-rails.html">&lt;p&gt;Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features, such as the ability to create, read, update, and delete (CRUD) data. In this article, we’ll show you how to create a simple CRUD web application for a travel domain using Ruby on Rails, and explain why it’s a great choice for beginner programmers.&lt;/p&gt;
+
+&lt;p&gt;One of the best things about using Ruby on Rails for a CRUD web application is that it comes with a built-in ORM (Object-Relational Mapping) called Active Record. This ORM allows you to define your data models and interact with the database using simple, intuitive commands, without having to write complex SQL queries or deal with the low-level details of the database. This makes it much easier for beginners to manage and work with the data in their application.&lt;/p&gt;
+
+&lt;p&gt;Another benefit of using Ruby on Rails is that it follows a set of best practices and conventions for structuring your application, known as “convention over configuration”. This means that Rails provides a standard way of organizing your code and files, which can help beginners avoid making common mistakes and ensure that their code is maintainable and scalable. For example, Rails uses a MVC (Model-View-Controller) architecture, which separates the data models, user interface, and business logic into distinct layers, making it easier to understand and update your application.&lt;/p&gt;
+
+&lt;p&gt;Finally, Ruby on Rails has an active and supportive community, with a wealth of resources, tutorials, and libraries available to help beginners learn and develop their application. This can be incredibly helpful when you’re starting out, as you can learn from the experiences and expertise of others, and get help and advice when you need it.&lt;/p&gt;
+
+&lt;p&gt;To create a simple CRUD web application with Ruby on Rails, you’ll need to have Ruby and Rails installed on your computer. If you don’t already have them, you can follow the instructions on the Ruby on Rails website to install them.&lt;/p&gt;
+
+&lt;p&gt;Once you have Ruby and Rails installed, you can create a new Rails project by running the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails new travel-app
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will create a new Rails project called “travel-app” in a new directory with the same name.&lt;/p&gt;
+
+&lt;p&gt;Next, we’ll need to create a database to store our data. In this example, we’ll be using SQLite, which is a simple and easy-to-use database that comes pre-installed with Rails. To create the database, run the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails db:create
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;With the database created, we can now create a model to represent the data we want to store. In this case, we’ll create a model called “Destination” to represent a travel destination. To create the model, run the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails generate model Destination name:string description:text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will create a new model called “Destination” with two fields: “name” and “description”. The “name” field is a string, which means it can store text, and the “description” field is a text field, which means it can store longer pieces of text.&lt;/p&gt;
+
+&lt;p&gt;With the model created, we can now create a controller to handle the CRUD operations for our destinations. To create the controller, run the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails generate controller destinations
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will create a new controller called “DestinationsController” with some basic methods for the CRUD operations.&lt;/p&gt;
+
+&lt;p&gt;Next, we’ll need to define the routes for our controller. Routes are the URLs that users can visit in our application, and they map to the specific actions in our controller. To define the routes for our DestinationsController, open the “config/routes.rb” file and add the following code to it:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;draw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;resources&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:destinations&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This code will configure the routes for all of the CRUD actions in our DestinationsController, using RESTful conventions.&lt;/p&gt;
+
+&lt;p&gt;With the routes and controller in place, we can now create the views for our CRUD operations. In Rails, views are HTML files that contain the layout and content for the web pages in our application.&lt;/p&gt;
+
+&lt;p&gt;To create the views for our DestinationsController, run the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Destinations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;
+
+&amp;lt;table&amp;gt;
+  &amp;lt;thead&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;th&amp;gt;Name&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;th&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;th&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/th&amp;gt;
+      &amp;lt;th&amp;gt;Actions&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;th&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/tr&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thead&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tbody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% @destinations.each &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;
+      &amp;lt;tr&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= destination.name %&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;td&amp;gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= link_to &apos;Show&apos;, destination %&amp;gt;
+          &amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link_to&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Edit&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edit_destination_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= link_to &apos;Destroy&apos;, destination, method: :delete, data: { confirm: &apos;Are you sure?&apos; } %&amp;gt;
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+    &amp;lt;% end %&amp;gt;
+  &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;
+
+&amp;lt;br&amp;gt;
+
+&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link_to&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;New Destination&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_destination_path&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This code will create a table that displays all of the destinations in the database, along with links to show, edit, and destroy each destination.&lt;/p&gt;
+
+&lt;p&gt;Next, open the “app/views/destinations/show.html.erb” file and add the following code to it:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= @destination.name %&amp;gt;&amp;lt;/h1&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@destination&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= link_to &apos;Back&apos;, destinations_path %&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This code will display the name and description of the destination, along with a link to go back to the list of destinations.&lt;/p&gt;
+
+&lt;p&gt;Next, open the “app/views/destinations/new.html.erb” file and add the following code to it:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Destination&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;
+
+&amp;lt;%= form_for @destination do |f| %&amp;gt;
+  &amp;lt;div&amp;gt;
+    &amp;lt;%= f.label :name %&amp;gt;
+    &amp;lt;%= f.text_field :name %&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= f.label :description %&amp;gt;
+    &amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;text_area&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;
+
+  &amp;lt;div&amp;gt;
+    &amp;lt;%= f.submit %&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% end &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= link_to &apos;Back&apos;, destinations_path %&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This code will create a form that allows the user to enter the name and description of a new destination.&lt;/p&gt;
+
+&lt;p&gt;Next, open the “app/views/destinations/edit.html.erb” file and add the following code to it:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Edit&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Destination&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;
+
+&amp;lt;%= form_for @destination do |f| %&amp;gt;
+  &amp;lt;div&amp;gt;
+    &amp;lt;%= f.label :name %&amp;gt;
+    &amp;lt;%= f.text_field :name %&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= f.label :description %&amp;gt;
+    &amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;text_area&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;
+
+  &amp;lt;div&amp;gt;
+    &amp;lt;%= f.submit %&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% end &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%= link_to &apos;Back&apos;, destinations_path %&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This code will create a form that allows the user to edit the name and description of an existing destination.&lt;/p&gt;
+
+&lt;p&gt;With the views in place, we can now start our Rails server and visit the application in our web browser to test the CRUD operations. To start the server, run the following command in your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will start the Rails server and make the application available at http://localhost:3000/.&lt;/p&gt;
+
+&lt;p&gt;To test the CRUD operations, visit the following URLs in your web browser:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:3000/destinations&lt;/code&gt;: This will display the list of destinations and allow you to create new destinations.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:3000/destinations/1&lt;/code&gt;: This will display the details of the destination with an ID of 1.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:3000/destinations/1/edit&lt;/code&gt;: This will allow you to edit the destination with an ID of 1.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it! You’ve successfully created a simple CRUD web application using Ruby on Rails and a travel domain as an example. There are many more features that you can add to this application, such as authentication, authorization, and validation, but this should give you a good starting point.&lt;/p&gt;
+
+&lt;p&gt;I hope this article has been helpful and has given you an idea of how to create a simple CRUD web application with Ruby on Rails. Happy coding!&lt;/p&gt;</content><author><name>Max Braga</name></author><category term="Ruby" /><category term="computer science" /><category term="code" /><category term="CRUD" /><category term="programming" /><summary type="html">Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features, such as the ability to create, read, update, and delete (CRUD) data. In this article, we’ll show you how to create a simple CRUD web application for a travel domain using Ruby on Rails, and explain why it’s a great choice for beginner programmers.</summary></entry><entry><title type="html">Ruby and Rails: A Love Story</title><link href="http://localhost:4000/2022/12/20/ruby-and-rails-a-love-story.html" rel="alternate" type="text/html" title="Ruby and Rails: A Love Story" /><published>2022-12-20T00:00:00-03:00</published><updated>2022-12-20T00:00:00-03:00</updated><id>http://localhost:4000/2022/12/20/ruby-and-rails-a-love-story</id><content type="html" xml:base="http://localhost:4000/2022/12/20/ruby-and-rails-a-love-story.html">&lt;p&gt;It all began in the mid-1990s, when Japanese programmer Yukihiro “Matz” Matsumoto set out to create a new programming language. He wanted a language that balanced functional programming with imperative programming, and that would be more powerful and user-friendly than existing languages. After much experimentation and refinement, he created Ruby, a dazzling language that quickly captured the hearts of programmers around the world.&lt;/p&gt;
+
+&lt;p&gt;But Ruby’s story didn’t end there. In the early 2000s, web developer David Heinemeier Hansson fell in love with Ruby and began using it to build web applications. To make this process even easier, he created Rails, a framework that helped developers create web applications with Ruby more quickly and efficiently.&lt;/p&gt;
+
+&lt;p&gt;Together, Ruby and Rails formed a perfect match for web development. Ruby’s simplicity and flexibility made it easy to read and write code, while Rails provided a powerful set of tools and libraries that enabled developers to build complex and scalable web applications. The two quickly became inseparable, and their popularity has only grown over time.&lt;/p&gt;
+
+&lt;p&gt;Today, Ruby and Rails are still going strong, and they continue to be used by many developers around the world. Their love story continues to inspire and delight those who are lucky enough to work with them. Whether you’re a seasoned programmer or just starting out, Ruby and Rails are a dynamic duo that will help you create amazing web applications and bring your ideas to life.&lt;/p&gt;</content><author><name>Max Braga</name></author><category term="Ruby" /><category term="computer science" /><category term="Rails" /><summary type="html">It all began in the mid-1990s, when Japanese programmer Yukihiro “Matz” Matsumoto set out to create a new programming language. He wanted a language that balanced functional programming with imperative programming, and that would be more powerful and user-friendly than existing languages. After much experimentation and refinement, he created Ruby, a dazzling language that quickly captured the hearts of programmers around the world.</summary></entry><entry><title type="html">The Basics of Recursion in Ruby</title><link href="http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby.html" rel="alternate" type="text/html" title="The Basics of Recursion in Ruby" /><published>2022-12-14T00:00:00-03:00</published><updated>2022-12-14T00:00:00-03:00</updated><id>http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby</id><content type="html" xml:base="http://localhost:4000/2022/12/14/the-basics-of-recursion-in-ruby.html">&lt;p&gt;Recursion is a powerful concept in programming that allows a function to call itself repeatedly until a specific condition is met. This can be a useful tool in solving complex problems, but it can also be tricky to understand and implement.&lt;/p&gt;
 
 &lt;p&gt;In Ruby, recursion is typically implemented using a base case, which is a condition that will cause the recursive function to stop calling itself, and a recursive case, which is the logic for the function to call itself again with a modified set of inputs.&lt;/p&gt;
 
