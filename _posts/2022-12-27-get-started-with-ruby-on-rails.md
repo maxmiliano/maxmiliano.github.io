@@ -13,7 +13,7 @@ header:
   teaser: assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg
 ---
 
-Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features, such as the ability to create, read, update, and delete (CRUD) data. In this article, we'll show you how to create a simple CRUD web application for a travel domain using Ruby on Rails, and explain why it's a great choice for beginner programmers.
+Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features. In this article, we'll show you how to create a simple CRUD (create, read, update, and delete) web application for a travel domain using Ruby on Rails, and explain why it's a great choice for beginner programmers.
 
 One of the best things about using Ruby on Rails for a CRUD web application is that it comes with a built-in ORM (Object-Relational Mapping) called Active Record. This ORM allows you to define your data models and interact with the database using simple, intuitive commands, without having to write complex SQL queries or deal with the low-level details of the database. This makes it much easier for beginners to manage and work with the data in their application.
 
@@ -21,11 +21,11 @@ Another benefit of using Ruby on Rails is that it follows a set of best practice
 
 Finally, Ruby on Rails has an active and supportive community, with a wealth of resources, tutorials, and libraries available to help beginners learn and develop their application. This can be incredibly helpful when you're starting out, as you can learn from the experiences and expertise of others, and get help and advice when you need it.
 
-To create a simple CRUD web application with Ruby on Rails, you'll need to have Ruby and Rails installed on your computer. If you don't already have them, you can follow the instructions on the Ruby on Rails website to install them.
+To create a simple CRUD web application with Ruby on Rails, you'll need to have Ruby and Rails installed on your computer. If you don't already have them, you can follow the instructions on the [Ruby on Rails website](https://www.ruby-lang.org/en/documentation/installation/){:target="_blank"} to install them.
 
 Once you have Ruby and Rails installed, you can create a new Rails project by running the following command in your terminal:
 
-~~~
+~~~sh
 $ rails new travel-app
 ~~~
 
@@ -33,13 +33,13 @@ This will create a new Rails project called "travel-app" in a new directory with
 
 Next, we'll need to create a database to store our data. In this example, we'll be using SQLite, which is a simple and easy-to-use database that comes pre-installed with Rails. To create the database, run the following command in your terminal:
 
-~~~
+~~~sh
 $ rails db:create
 ~~~
 
 With the database created, we can now create a model to represent the data we want to store. In this case, we'll create a model called "Destination" to represent a travel destination. To create the model, run the following command in your terminal:
 
-~~~
+~~~sh
 $ rails generate model Destination name:string description:text
 ~~~
 
@@ -47,7 +47,7 @@ This will create a new model called "Destination" with two fields: "name" and "d
 
 With the model created, we can now create a controller to handle the CRUD operations for our destinations. To create the controller, run the following command in your terminal:
 
-~~~
+~~~sh
 $ rails generate controller destinations
 ~~~
 
@@ -67,7 +67,7 @@ With the routes and controller in place, we can now create the views for our CRU
 
 To create the views for our DestinationsController, run the following command in your terminal:
 
-~~~ruby
+~~~erb
 <h1>Destinations</h1>
 
 <table>
@@ -102,7 +102,7 @@ This code will create a table that displays all of the destinations in the datab
 
 Next, open the "app/views/destinations/show.html.erb" file and add the following code to it:
 
-~~~ruby
+~~~erb
 <h1><%= @destination.name %></h1>
 
 <p><%= @destination.description %></p>
@@ -116,7 +116,7 @@ This code will display the name and description of the destination, along with a
 
 Next, open the "app/views/destinations/new.html.erb" file and add the following code to it:
 
-~~~ruby
+~~~erb
 <h1>New Destination</h1>
 
 <%= form_for @destination do |f| %>
@@ -144,7 +144,7 @@ This code will create a form that allows the user to enter the name and descript
 
 Next, open the "app/views/destinations/edit.html.erb" file and add the following code to it:
 
-~~~ruby
+~~~erb
 <h1>Edit Destination</h1>
 
 <%= form_for @destination do |f| %>
@@ -172,7 +172,7 @@ This code will create a form that allows the user to edit the name and descripti
 
 With the views in place, we can now start our Rails server and visit the application in our web browser to test the CRUD operations. To start the server, run the following command in your terminal:
 
-~~~
+~~~sh
 $ rails server
 ~~~
 
