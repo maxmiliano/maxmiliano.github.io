@@ -63,9 +63,9 @@ end
 
 This code will configure the routes for all of the CRUD actions in our DestinationsController, using RESTful conventions.
 
-With the routes and controller in place, we can now create the views for our CRUD operations. In Rails, views are HTML files that contain the layout and content for the web pages in our application.
+With the routes and controller in place, we can now create the views for our CRUD operations. In Rails, views are HTML files that contain the layout and content for the web pages in our application. To create the views for our DestinationsController, we will edit the `.html.erb` files for each view.
 
-To create the views for our DestinationsController, run the following command in your terminal:
+First add the following content to the file `app/views/destinations/index.html.erb`:
 
 ~~~erb
 <h1>Destinations</h1>
@@ -98,7 +98,7 @@ To create the views for our DestinationsController, run the following command in
 <%= link_to 'New Destination', new_destination_path %>
 ~~~
 
-This code will create a table that displays all of the destinations in the database, along with links to show, edit, and destroy each destination.
+This html shows a table that displays all the destinations in the database, along with links to show, edit, and destroy each destination.
 
 Next, open the `app/views/destinations/show.html.erb` file and add the following code to it:
 
@@ -168,7 +168,7 @@ Next, open the `app/views/destinations/edit.html.erb` file and add the following
 <%= link_to 'Back', destinations_path %>
 ~~~
 
-This code will create a form that allows the user to edit the name and description of an existing destination.
+This code shows the form that allows the user to edit the name and description of an existing destination.
 
 With the views in place, we can now start our Rails server and visit the application in our web browser to test the CRUD operations. To start the server, run the following command in your terminal:
 
