@@ -63,9 +63,7 @@ end
 
 This code will configure the routes for all of the CRUD actions in our DestinationsController, using RESTful conventions.
 
-With the routes and controller in place, we can now create the views for our CRUD operations. In Rails, views are HTML files that contain the layout and content for the web pages in our application.
-
-To create the views for our DestinationsController, will edit the HTML files for each view.
+With the routes and controller in place, we can now create the views for our CRUD operations. In Rails, views are HTML files that contain the layout and content for the web pages in our application. To create the views for our DestinationsController, we will edit the `.html.erb` files for each view.
 
 First add the following content to the file `app/views/destinations/index.html.erb`:
 
