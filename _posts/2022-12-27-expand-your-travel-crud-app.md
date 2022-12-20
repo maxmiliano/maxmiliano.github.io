@@ -9,6 +9,7 @@ tags:
   - programming
 comments: true
 related: true
+date: 2022-12-20 09:12 -0300
 header:
   teaser: assets/images/ed-259-xcrI6CPkkJs-unsplash.jpg
 ---
