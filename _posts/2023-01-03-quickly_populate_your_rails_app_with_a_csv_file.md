@@ -3,13 +3,16 @@ title: Quickly Populate Your Rails App with a CSV File
 author: Max
 tags:
   - Ruby
-  - computer science
+  - Rails
   - code
   - database
   - programming
 comments: true
 related: true
 date: 2023-01-03 09:18 -0300
+toc: true
+toc_sticky: true
+toc_label: "Seed from a CSV file"
 header:
   teaser: assets/images/pomegranate-g7b474234c_1920.jpg
 ---

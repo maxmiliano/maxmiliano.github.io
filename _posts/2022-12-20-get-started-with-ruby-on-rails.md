@@ -3,7 +3,7 @@ title: Get Started with Ruby on Rails and Create a Travel CRUD
 author: Max
 tags:
   - Ruby
-  - computer science
+  - Rails
   - code
   - CRUD
   - programming
