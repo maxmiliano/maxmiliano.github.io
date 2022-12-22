@@ -3,7 +3,7 @@ title: Expand Your RoR Travel CRUD App adding associations
 author: Max
 tags:
   - Ruby
-  - computer science
+  - Rails
   - code
   - CRUD
   - programming
