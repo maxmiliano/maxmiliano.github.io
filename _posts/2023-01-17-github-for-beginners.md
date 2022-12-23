@@ -14,6 +14,8 @@ toc_label: "GitHub for Beginners"
 excerpt: "In this article, we’ll go over the basics of getting started with GitHub and creating a repository for a Ruby on Rails (RoR) app."
 header:
   teaser: assets/images/books-1655783_1920.jpg
+  overlay_image: assets/images/books-1655783_1920.jpg
+  overlay_filter: 0.65
 ---
 
 ## Git and GitHub
@@ -33,7 +35,7 @@ Git and GitHub are essential tools for any software developer, and are widely us
 
 1. Initialize a Git repository in the project directory of your Rails app by running the following command:
 ~~~sh
-git init
+$ git init
 ~~~ 
 
 1. Next, create a new repository on GitHub by going to your dashboard and clicking the "New" button. Give your repository a name and a description, and select "Private" or "Public" depending on your preference.
@@ -42,14 +44,14 @@ git init
 
 1. Now you can start working on your RoR app. As you make changes to your code, you can use Git to track those changes. To do this, you'll need to "commit" your changes to the repository. To make a commit, run the following commands:
 ~~~sh
-git add .
-git commit -m "Your commit message goes here"
+$ git add .
+$ git commit -m "Your commit message goes here"
 ~~~
 The "git add" command adds all of your changes to a staging area, and the "git commit" command saves those changes to your local repository. It's a good practice to add meaninfull messages when you commit your files to a repository.
 
 1. Once you've made some commits, you can push your changes to the remote repository on GitHub by running the following command:
 ~~~sh
-git push origin main
+$ git push origin main
 ~~~
 This will push all of your local commits to the "main" branch of the repository on GitHub. You may be asked to enter your GitHub credentials at this moment.
 

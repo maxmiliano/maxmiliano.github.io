@@ -9,6 +9,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/stained-glass-1181864_1920.jpg
+  overlay_image: assets/images/stained-glass-1181864_1920.jpg
+  overlay_filter: 0.65
 ---
 
 Recursion is a powerful concept in programming that allows a function to call itself repeatedly until a specific condition is met. This can be a useful tool in solving complex problems, but it can also be tricky to understand and implement.

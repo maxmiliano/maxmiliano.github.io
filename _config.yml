@@ -87,4 +87,5 @@ defaults:
       comments: true
       share: true
       related: true
-
+      header:
+        overlay_filter: 0.65

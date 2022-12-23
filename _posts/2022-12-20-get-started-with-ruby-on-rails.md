@@ -12,6 +12,8 @@ related: true
 date: 2022-12-20 08:04 -0300
 header:
   teaser: assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg
+  overlay_image: assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg
+  overlay_filter: 0.65
 ---
 
 Ruby on Rails is a fantastic web development framework that makes it easy to build web applications with powerful features. In this article, we'll show you how to create a simple CRUD (create, read, update, and delete) web application for a travel domain using Ruby on Rails, and explain why it's a great choice for beginner programmers.

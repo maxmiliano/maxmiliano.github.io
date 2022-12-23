@@ -9,6 +9,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/jewelry-625725_1920.jpg
+  overlay_image: assets/images/jewelry-625725_1920.jpg
+  overlay_filter: 0.65
 ---
 It all began in the mid-1990s, when Japanese programmer Yukihiro "Matz" Matsumoto set out to create a new programming language. He wanted a language that balanced functional programming with imperative programming, and that would be more powerful and user-friendly than existing languages. After much experimentation and refinement, he created Ruby, a dazzling language that quickly captured the hearts of programmers around the world.
 

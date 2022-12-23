@@ -16,6 +16,8 @@ toc_sticky: true
 toc_label: "Authentication with Devise"
 header:
   teaser: assets/images/padlock-g60c73fc6e_1920.jpg
+  overlay_image: assets/images/padlock-g60c73fc6e_1920.jpg
+  overlay_filter: 0.65
 ---
 
 In this tutorial, we will be adding authentication to a Rails app using the Devise library. Devise is a popular gem that provides a full-featured and flexible authentication solution for Rails apps.
