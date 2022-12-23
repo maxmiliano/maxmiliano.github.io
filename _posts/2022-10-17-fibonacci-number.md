@@ -10,6 +10,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png
+  overlay_image: assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png
+  overlay_filter: 0.65
 ---
 The Fibonacci Number is another common code challenge and it has some simililraties with the Factorial Number we already solved.
 

@@ -9,6 +9,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/hello-world-ruby-code.png
+  overlay_image: assets/images/hello-world-ruby-code.png
+  overlay_filter: 0.65
 ---
 This blog is hosted on GitHub Pages and it was built with [Jekyll](https://jekyllrb.com/) following a [tutorial](https://github.com/skills/github-pages) from [GitHub Skills](https://github.com/skills). Jekyll is a static site generator that was made to be easy to use by developers. If you also want to quickly build a programming blog or a portfolio site to showcase your projects I would definetely recoment it for you.
 

@@ -10,6 +10,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png
+  overlay_image: assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png
+  overlay_filter: 0.65
 ---
 Finding the Factorial Number is a common and simple challenge. Though it's easy to solve I find it interesting because it allows us to solve it in different ways that explore a few programming concepts.
 

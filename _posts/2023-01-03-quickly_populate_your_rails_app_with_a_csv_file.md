@@ -15,6 +15,8 @@ toc_sticky: true
 toc_label: "Seed from a CSV file"
 header:
   teaser: assets/images/pomegranate-g7b474234c_1920.jpg
+  overlay_image: assets/images/pomegranate-g7b474234c_1920.jpg
+  overlay_filter: 0.65
 ---
 
 In this article we will learn you how to seed data to a Rails application from a CSV file. For this example we will use the Destination model from the travel theme app we built in our past two articles as an example, but this applies to any Ruby on Rails app that has Active Record models. The Destination model has the following attributes: name (string) and description (text).

@@ -12,6 +12,8 @@ related: true
 date: 2022-12-27 09:12 -0300
 header:
   teaser: assets/images/ed-259-xcrI6CPkkJs-unsplash.jpg
+  overlay_image: assets/images/ed-259-xcrI6CPkkJs-unsplash.jpg
+  overlay_filter: 0.65
 ---
 
 In the [previous article]({% post_url 2022-12-20-get-started-with-ruby-on-rails %}), we showed you how to create a simple CRUD web application for a travel domain using Ruby on Rails. In this article, we'll take that application a step further and add more models and associations to it to make it more robust and powerful.

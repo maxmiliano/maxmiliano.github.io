@@ -10,6 +10,8 @@ comments: true
 related: true
 header:
   teaser: assets/images/hello-world-ruby-code.png
+  overlay_image: assets/images/hello-world-ruby-code.png
+  overlay_filter: 0.65
 ---
 
 **Hello there**, this my first blog post.
