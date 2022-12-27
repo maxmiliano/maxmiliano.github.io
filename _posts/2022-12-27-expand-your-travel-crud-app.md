@@ -16,7 +16,7 @@ header:
   overlay_filter: 0.65
 ---
 
-In the [previous article]({% post_url 2022-12-20-get-started-with-ruby-on-rails %}), we showed you how to create a simple CRUD web application for a travel domain using Ruby on Rails. In this article, we'll take that application a step further and add more models and associations to it to make it more robust and powerful.
+In the [previous article]({% post_url 2022-12-20-get-started-with-ruby-on-rails %}), we showed you how to create a simple CRUD web application for a travel domain using Ruby on Rails. In this article, we'll take that application a step further and add one more model and associations to it to make it more robust.
 
 One of the key features of Ruby on Rails is its ability to easily associate models and create relationships between them. This allows you to build more complex and dynamic applications, where the data is connected in meaningful ways.
 
