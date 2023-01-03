@@ -41,12 +41,18 @@ whitelist:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+# comments:
+#   provider: "utterances"
+#   utterances:
+#     theme: "github-light"
+#     issue_term: "pathname"
+#     label: "comment"
+#
+
 comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light"
-    issue_term: "pathname"
-    label: "comment"
+  provider: "disqus"
+  disqus: 
+    shortname: "hello-max"
 
 category_archive:
   type: liquid
