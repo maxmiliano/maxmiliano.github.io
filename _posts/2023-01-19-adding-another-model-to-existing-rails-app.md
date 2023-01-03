@@ -18,7 +18,7 @@ header:
   teaser: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg
   overlay_image: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg
   overlay_filter: 0.65
-  caption: Photo from [Pixabay](https://pixabay.com/photos/train-transportation-winter-season-3758523/)
+  caption: "Photo from [Pixabay](https://pixabay.com/photos/train-transportation-winter-season-3758523/){:target='_blank'}"
 ---
 
 ## What we will do
