@@ -8,6 +8,7 @@ tags:
   - code
 comments: true
 related: true
+tagline: "5! = 5 * 4!"
 header:
   teaser: assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png
   overlay_image: assets/images/2022-10-09-Factorial_Code_Challenge-thumb.png

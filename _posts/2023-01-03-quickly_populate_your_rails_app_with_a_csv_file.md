@@ -13,6 +13,7 @@ date: 2023-01-03 09:18 -0300
 toc: true
 toc_sticky: true
 toc_label: "Seed from a CSV file"
+tagline: "Seeding data in a Ruby on Rails app using CSV files is an easy and efficient way to manage and structure data."
 header:
   teaser: assets/images/pomegranate-g7b474234c_1920.jpg
   overlay_image: assets/images/pomegranate-g7b474234c_1920.jpg

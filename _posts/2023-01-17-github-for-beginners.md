@@ -12,6 +12,7 @@ toc: true
 toc_sticky: true
 toc_label: "GitHub for Beginners"
 excerpt: "In this article, we’ll go over the basics of getting started with GitHub and creating a repository for a Ruby on Rails (RoR) app."
+tagline: "In this article, we’ll go over the basics of getting started with GitHub and creating a repository for a Ruby on Rails (RoR) app."
 header:
   teaser: assets/images/books-1655783_1920.jpg
   overlay_image: assets/images/books-1655783_1920.jpg

@@ -8,6 +8,7 @@ tags:
   - code
 comments: true
 related: true
+tagline: "Because **Hello World** is always the first thing we do."
 header:
   teaser: assets/images/hello-world-ruby-code.png
   overlay_image: assets/images/hello-world-ruby-code.png
