@@ -8,6 +8,7 @@ tags:
   - YouTube
 comments: true
 related: true
+tagline: "*0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144*"
 header:
   teaser: assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png
   overlay_image: assets/images/2022-10-16-Fibonacci_Code_Challenge-thumb.png

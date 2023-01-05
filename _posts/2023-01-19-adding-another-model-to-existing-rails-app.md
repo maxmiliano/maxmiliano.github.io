@@ -14,6 +14,7 @@ excerpt: "In this tutorial, we will be adding a Trip model to a Rails app. Each 
 toc: true
 toc_sticky: true
 toc_label: "Adding another model"
+tagline: "A travel app is not a travel app if we can't create trips. So let's create a Trip model and fix that."
 header:
   teaser: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg
   overlay_image: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg

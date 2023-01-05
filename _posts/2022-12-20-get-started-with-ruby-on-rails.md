@@ -10,6 +10,7 @@ tags:
 comments: true
 related: true
 date: 2022-12-20 08:04 -0300
+tagline: "Let's start to create a web application for a travel domain using the magic power of Ruby on Rails."
 header:
   teaser: assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg
   overlay_image: assets/images/annie-spratt-qyAka7W5uMY-unsplash.jpg

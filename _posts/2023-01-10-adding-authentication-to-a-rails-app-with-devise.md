@@ -14,6 +14,7 @@ date: 2023-01-10 09:02 -0300
 toc: true
 toc_sticky: true
 toc_label: "Authentication with Devise"
+tagline: "Authenticate with ease using Devise - the ultimate gem for hassle-free authentication in Rails!"
 header:
   teaser: assets/images/padlock-g60c73fc6e_1920.jpg
   overlay_image: assets/images/padlock-g60c73fc6e_1920.jpg

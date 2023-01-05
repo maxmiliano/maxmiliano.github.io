@@ -7,6 +7,7 @@ tags:
   - meta
 comments: true
 related: true
+tagline: "Basically: **Github Pages + Jekyll**"
 header:
   teaser: assets/images/hello-world-ruby-code.png
   overlay_image: assets/images/hello-world-ruby-code.png

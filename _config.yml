@@ -79,6 +79,9 @@ compress_html:
   ignore:
     envs: development
 
+twitter:
+  username: "hellomaxdev"
+
 defaults:
   # _posts
   - scope:
@@ -95,3 +98,4 @@ defaults:
       related: true
       header:
         overlay_filter: 0.65
+
