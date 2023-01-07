@@ -20,8 +20,9 @@
 
 
     {% if include.type == "list" and teaser %}   
-      <div class="align-left" style="border-radius: 4px; overflow: hidden; max-height: 100px; max-width: 150px">
+      <div class="align-left" style="border-radius: 4px; overflow: hidden; max-height: 120px; max-width: 150px">
         <img src="{{ teaser | relative_url }}" 
+             alt="{{ title }}"
              >
       </div>
     {% endif %}
@@ -34,9 +35,7 @@
       {% endif %}
     </h2>
 
-
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-    
   </article>
 </div>
