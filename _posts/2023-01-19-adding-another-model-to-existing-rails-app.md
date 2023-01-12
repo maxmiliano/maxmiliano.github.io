@@ -1,5 +1,5 @@
 ---
-title: "Adding another model (and more associations) to our RoR app"
+title: "Adding a model with complex associations to a RoR app"
 author: Max
 tags:
   - Ruby
@@ -10,7 +10,7 @@ comments: true
 related: true
 date: 2023-01-19 08:47 -0300
 last_modified_at: 2023-01-19 08:47 -0300
-excerpt: "In this tutorial, we will be adding a Trip model to a Rails app. Each Trip can have one or more Destinations and is created by a User. A Trip also has a start date and end date."
+excerpt: "In this tutorial, we will be adding a Trip model to a Rails app. Each Trip can have one or more Destinations and is created by a User. Destination can have one or more Trips."
 toc: true
 toc_sticky: true
 toc_label: "Adding another model"
@@ -25,7 +25,7 @@ header:
 ## What we will do
 In this tutorial, we will be adding a Trip model to a Rails app. Each Trip can have one or more Destinations and is created by a User. A Trip also has a start date and end date.
 
-To fullfill this requirements in addition to creating a new Trip model we will also need to do a few changes on existing models. And we will learn a new type of relationship as well.
+To fullfill this requirements in addition to creating a new Trip model we will also need to do a few changes on existing models. And we will learn a new type of relationship as well, the `has_and_belongs_to_many`.
 
 ## Step 1: Generate the Trip model and migration
 
