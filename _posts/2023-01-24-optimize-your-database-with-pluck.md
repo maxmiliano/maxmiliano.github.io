@@ -6,6 +6,8 @@ tags:
   - Rails
   - ActiveRecord
   - Quick Tip
+categories:
+  - Tips
 comments: true
 related: true
 date: 2023-01-24 08:56 -0300
