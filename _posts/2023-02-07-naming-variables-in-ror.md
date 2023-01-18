@@ -16,7 +16,7 @@ header:
   teaser: assets/images/HelloMax-A_Ruby_on_Rails_programmer_in_front_of_the_computer_wr_1dccb719-bb59-4cf0-b9bd-3ec2e3c4f8de.png
   overlay_image: assets/images/HelloMax-A_Ruby_on_Rails_programmer_in_front_of_the_computer_wr_1dccb719-bb59-4cf0-b9bd-3ec2e3c4f8de.png
   overlay_filter: 0.65
-  caption: "Photo credit: AI generated with [**Midjourney**](https://www.midjourney.com/){:target='_blank'}"
+  caption: "Image Credit: AI generated with [**Midjourney**](https://www.midjourney.com/){:target='_blank'}"
 ---
 As a software developer, one of the most challenging tasks we face is naming our variables. It's a small task, but it can make a big difference in the readability and maintainability of our code. And trust me, I know how frustrating it can be when you're stuck trying to come up with the perfect name for a variable. But don't worry, there are some simple strategies that you can use to make this task a lot easier.
 
