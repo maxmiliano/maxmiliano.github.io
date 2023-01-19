@@ -6,6 +6,8 @@ tags:
   - Rails
   - code
   - programming
+categories:
+  - Tutorial
 comments: true
 related: true
 date: 2023-01-19 08:47 -0300
@@ -16,8 +18,8 @@ toc_sticky: true
 toc_label: "Adding another model"
 tagline: "A travel app is not a travel app if we can't create trips. So let's create a Trip model and fix that."
 header:
-  teaser: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg
-  overlay_image: assets/images/train-transportation-winter-season-3758523-3758523_1920.jpg
+  teaser: assets/images/Red-and-black-train-snowy-field.jpg
+  overlay_image: assets/images/Red-and-black-train-snowy-field.jpg
   overlay_filter: 0.65
   caption: "Photo from [Pixabay](https://pixabay.com/photos/train-transportation-winter-season-3758523/){:target='_blank'}"
 ---
