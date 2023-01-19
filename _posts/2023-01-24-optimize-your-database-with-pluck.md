@@ -13,10 +13,9 @@ related: true
 date: 2023-01-24 08:56 -0300
 excerpt: "This is a quick tip to help you improving your database queries with the **pluck** ActiveRecord method"
 header:
-  teaser: assets/images/pluck-4547173_1920.jpg
-  overlay_image: assets/images/pluck-4547173_1920.jpg
+  teaser: assets/images/hand_plucking_a_red_apple_from_a_tree_stylish_ultra_de_21e7fce2-9fb3-428f-b1cb-7cd328a02f08.png
+  overlay_image: assets/images/hand_plucking_a_red_apple_from_a_tree_stylish_ultra_de_21e7fce2-9fb3-428f-b1cb-7cd328a02f08.png
   overlay_filter: 0.65
-  caption: "Photo credit: [**Pixabay**](https://pixabay.com/photos/pluck-apple-fruit-tree-healthy-4547173/){:target='_blank'}"
 ---
 
 Do you ever find yourself needing to grab specific data from your database without the need for instantiating entire Active Record objects? Maybe you just new one or another attribute and that's it. Well, have no fear, because the `pluck` method is here to save the day!
