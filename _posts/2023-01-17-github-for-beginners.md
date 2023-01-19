@@ -14,9 +14,10 @@ toc_label: "GitHub for Beginners"
 excerpt: "In this article, we’ll go over the basics of getting started with GitHub and creating a repository for a Ruby on Rails (RoR) app."
 tagline: "GitHub is awesome. Let's start painting those bricks!"
 header:
-  teaser: assets/images/books-1655783_1920.jpg
-  overlay_image: assets/images/books-1655783_1920.jpg
+  teaser: assets/images/Black_cat_in_ultra_realistic_style_wearing_a_Hoodie_wi_2f8ab603-704b-43f6-af23-863e0ce180f9.png
+  overlay_image: assets/images/Black_cat_in_ultra_realistic_style_wearing_a_Hoodie_wi_2f8ab603-704b-43f6-af23-863e0ce180f9.png
   overlay_filter: 0.65
+  caption: "Image Credit: AI generated with [**Midjourney**](https://www.midjourney.com/){:target='_blank'}"
 ---
 
 ## Git and GitHub
