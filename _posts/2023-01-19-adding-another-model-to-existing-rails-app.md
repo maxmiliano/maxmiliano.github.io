@@ -21,7 +21,6 @@ header:
   teaser: assets/images/Red-and-black-train-snowy-field.jpg
   overlay_image: assets/images/Red-and-black-train-snowy-field.jpg
   overlay_filter: 0.65
-  caption: "Photo from [Pixabay](https://pixabay.com/photos/train-transportation-winter-season-3758523/){:target='_blank'}"
 ---
 
 ## What we will do
