@@ -12,7 +12,7 @@ categories:
 comments: true
 related: true
 date: 2023-01-26 08:47 -0300
-last_modified_at: 2023-01-19 09:06 -0300
+last_modified_at: 2023-01-26 -0300
 excerpt: "Dockerize your Rails application and elevate your development, testing, and deployment process with this step-by-step guide. Experience the reliability and efficiency of Docker for yourself and take your application to the next level."
 toc: true
 toc_sticky: true
