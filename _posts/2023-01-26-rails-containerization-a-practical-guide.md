@@ -31,10 +31,13 @@ From setting up the environment, to running and managing the containers, I'll gu
 Whether you're a developer looking to improve your workflow, or a DevOps engineer looking to improve the scalability and portability of your application, Docker is something you'd like to add to your toolkit. Trust me, the benefits of using Docker are worth it, and I hope this guide will help you take the first step towards Dockerizing your Rails application.
 
 ## Prerequisites
-* Docker
-    An instroduction to Docker and detailed steps to install it in you computer can be found on the the [official Docker site](https://www.docker.com/get-started/){:target='_blank'}.
+* Docker 
+  
+  An instroduction to Docker and detailed steps to install it in you computer can be found on the the [official Docker site](https://www.docker.com/get-started/){:target='_blank'}.
+
 * Docker Compose
-    To install Docker Compose you can follow [these instructions](https://docs.docker.com/compose/install/){:target='_blank'}.
+  
+  To install Docker Compose you can follow [these instructions](https://docs.docker.com/compose/install/){:target='_blank'}.
 
 Please keep in mind that the installation process may vary depending on your operating system, so it's important to follow the instructions for your specific OS.
 
@@ -84,9 +87,9 @@ services:
 In the `web` service definition:
 * The `build` key specifies that the image should be built from the `Dockerfile` in the current directory. 
 * The `command` key specifies the command to run when the container starts up, in this case starting the Rails server. 
-The `volumes` key is used to mount the application code into the container. 
+* The `volumes` key is used to mount the application code into the container. 
 * The `ports` key is used to map the container's port 3000 to port 3000 on the host.
-The `depends_on` key specifies that the `web` service depends on the `db` service, so the `db` service will be started first, no matter the order they show in our file.
+* The `depends_on` key specifies that the `web` service depends on the `db` service, so the `db` service will be started first, no matter the order they are in our file.
 
 In the `db` service definition:
 * The `image` key specifies the image to use, in this case `postgres:10.7`. 
