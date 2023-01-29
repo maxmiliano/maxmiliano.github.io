@@ -91,7 +91,7 @@ Now that you have RSpec set up and running, you can start writing tests for your
 
 It's important to keep in mind that testing is a crucial step in the development process, and using RSpec can help you to ensure that your application is working as expected before deploying it to production.
 
-I hope this guide has helped you understand the basics of RSpec and how to add the RSpec gem to your Rails project. Remember that testing is a crucial step in the development process, and using RSpec can help you ensure that your application is working as expected before deploying it to production. If you enjoyed this article and would like to learn more about RSpec and testing in Rails, be sure to [subscribe to our blog newsletter](http://eepurl.com/igx0pj){:target="_blank"}   to stay updated on the latest tips and tricks.
+I hope this guide has helped you understand the basics of RSpec and how to add the RSpec gem to your Rails project. Remember that testing is a crucial step in the development process, and using RSpec can help you ensure that your application is working as expected before deploying it to production. If you enjoyed this article and would like to learn more about RSpec and testing in Rails, be sure to [subscribe to our blog newsletter](http://eepurl.com/igx0pj){:target="_blank"} to stay updated on the latest tips and tricks.
 {: .notice--info}
 
 **Happy testing!**
