@@ -23,7 +23,7 @@ As a software developer, one of the most challenging tasks we face is naming our
 One of the most important things to keep in mind when naming variables is to make sure that they are descriptive and meaningful. This sounds simple enough, but it can be difficult to put into practice. For example, consider the following code:
 ~~~ruby
 x = "John Smith"
-y = 123
+y = 32
 z = "456 Main St"
 ~~~
 In this example, the variables `x`, `y`, and `z` are not very descriptive or meaningful. It's not immediately clear what the variables represent or what their purpose is.
@@ -31,7 +31,7 @@ In this example, the variables `x`, `y`, and `z` are not very descriptive or mea
 Now, let's take a look at this example:
 ~~~ruby
 customer_name = "John Smith"
-customer_age = 123
+customer_age = 32
 customer_address = "456 Main St"
 ~~~
 
