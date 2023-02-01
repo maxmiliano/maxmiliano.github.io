@@ -29,5 +29,5 @@ Rails 7 also includes support for Action Text, making it easy to add rich text e
 
 All in all, Rails 7 is a solid upgrade. It brings a lot of new features that can help you create better and more efficient apps. So go ahead, give Rails 7 a try and see for yourself just how awesome it is.
 
-**Rails 7.1 is comming!** By the time this article was written the most recent stable Rails version is 7.0.4.2 (released on January 25, 2023). But there is already a Release Candidate for Rails 7.1 available. Which means an official 7.1 may be released soon with many changes. I'll write about these when time comes, so if want to be the first to read about it be sure to [subscribe to our blog newsletter](http://eepurl.com/igx0pj){:target="_blank"}.
+**Rails 7.1 is comming!** By the time this article was written the most recent stable Rails version is 7.0.4.2 (released on January 25, 2023). But there is already a Release Candidate for Rails 7.1 available. Which means an official 7.1 may be released soon with many changes. I'll write about these when time comes, so if you want to be the first to read about it be sure to [subscribe to our blog newsletter](http://eepurl.com/igx0pj){:target="_blank"}.
 {: .notice--info}
