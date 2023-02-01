@@ -14,10 +14,10 @@ related: true
 date: 2023-02-14 08:32 -0300
 last_modified_at: 2023-02-14 -0300
 excerpt: "Are you tired of buggy code and unreliable tests in your Rails project? Look no further! In this article, we will show you how to add the RSpec gem to your Rails project and start testing like a pro. From setting up the environment to writing your firsti (simple) test, we will guide you step-by-step through the process."
-#toc: true
-#toc_sticky: true
-#toc_label: "Dockerizing an App"
-tagline: "Say goodbye to buggy code with RSpec and hello to fluffy and happy testing"
+toc: true
+toc_sticky: true
+toc_label: "Adding RSpec gem"
+tagline: "Say goodbye to buggy sad code with RSpec and hello to happy testing"
 header:
   teaser: assets/images/crash_test_dummie_working_on_a_laptop_programming_la_f8b53e58-f0d4-45ba-9995-d2f01899e1f8.png
   overlay_image: assets/images/crash_test_dummie_working_on_a_laptop_programming_la_f8b53e58-f0d4-45ba-9995-d2f01899e1f8.png
