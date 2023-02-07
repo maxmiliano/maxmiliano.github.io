@@ -7,6 +7,8 @@ tags:
   - Rails
 comments: true
 related: true
+layout: single
+classes: wide
 tagline: "Get ready to fall in love with Ruby and Rails: the dynamic duo that's revolutionizing web development."
 header:
   teaser: assets/images/jewelry-625725_1920.jpg

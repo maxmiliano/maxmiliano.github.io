@@ -11,6 +11,8 @@ categories:
 comments: true
 related: true
 date: 2023-01-24 08:56 -0300
+layout: single
+classes: wide
 excerpt: "This is a quick tip to help you improving your database queries with the **pluck** ActiveRecord method"
 header:
   teaser: assets/images/hand_plucking_a_red_apple_from_a_tree_stylish_ultra_de_21e7fce2-9fb3-428f-b1cb-7cd328a02f08.png
