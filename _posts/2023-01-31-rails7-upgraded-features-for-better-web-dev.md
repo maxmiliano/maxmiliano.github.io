@@ -10,6 +10,8 @@ categories:
 comments: true
 related: true
 date: 2023-01-31 09:10 -0300
+layout: single
+classes: wide
 excerpt: "Upgrade to Rails 7 and take your web development to the next level with its new features like support for multiple databases, parallel testing and improved performance and security."
 tagline: "This version brings a few game change improvments"
 header:

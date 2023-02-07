@@ -7,6 +7,8 @@ tags:
   - code
 comments: true
 related: true
+layout: single
+classes: wide
 header:
   teaser: assets/images/stained-glass-1181864_1920.jpg
   overlay_image: assets/images/stained-glass-1181864_1920.jpg

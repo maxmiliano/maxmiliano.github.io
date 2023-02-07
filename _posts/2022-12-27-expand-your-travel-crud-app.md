@@ -10,6 +10,8 @@ tags:
 comments: true
 related: true
 date: 2022-12-27 09:12 -0300
+layout: single
+classes: wide
 tagline: "Let's take our application to the next level and learn about model associations."
 header:
   teaser: assets/images/ed-259-xcrI6CPkkJs-unsplash.jpg

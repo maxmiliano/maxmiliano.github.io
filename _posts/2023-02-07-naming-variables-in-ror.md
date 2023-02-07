@@ -10,6 +10,8 @@ categories:
 comments: true
 related: true
 date: 2023-02-07 08:42 -0300
+layout: single
+classes: wide
 excerpt: "Naming variables in a Ruby on Rails environment is crucial for code readability and maintainability. Using descriptive and meaningful names, sticking to conventions, and using linters like Rubocop can help make this task easier and improve the overall quality of the code." 
 tagline: "Why settle for 'a' and 'b' when you can have 'awesome_variable' and 'best_variable'?"
 header:

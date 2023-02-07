@@ -8,6 +8,8 @@ tags:
 comments: true
 related: true
 tagline: "Basically: **Github Pages + Jekyll**"
+layout: single
+classes: wide
 header:
   teaser: assets/images/hello-world-ruby-code.png
   overlay_image: assets/images/hello-world-ruby-code.png
