@@ -11,8 +11,8 @@ categories:
   - Tutorial
 comments: true
 related: true
-date: 2023-02-28 08:15 +0100
-last_modified_at: 2023-02-28 +0100
+date: 2023-03-07 08:20 +0100
+last_modified_at: 2023-03-07 +0100
 excerpt: "Discover the power of Shared Examples in RSpec for Rails and simplify your testing process with reusable and DRY code. Learn how to write shared examples for models, controllers, data validation, ensure associations, and define scopes all in one place. Streamline your testing process with Shared Examples in RSpec for Rails."
 toc: true
 toc_sticky: true
