@@ -12,7 +12,7 @@ categories:
 comments: true
 related: true
 date: 2023-02-14 08:32 -0300
-last_modified_at: 2023-02-14 -0300
+last_modified_at: 2023-02-16 10:42 -0300
 excerpt: "Are you tired of buggy code and unreliable tests in your Rails project? Look no further! In this article, we will show you how to add the RSpec gem to your Rails project and start testing like a pro. From setting up the environment to writing your firsti (simple) test, we will guide you step-by-step through the process."
 toc: true
 toc_sticky: true
@@ -23,6 +23,11 @@ header:
   overlay_image: assets/images/crash_test_dummie_working_on_a_laptop_programming_la_f8b53e58-f0d4-45ba-9995-d2f01899e1f8.png
   overlay_filter: 0.65
 ---
+## Why test your app?
+Automated testing is an essential part of software development, and there are good reasons why it should be an integral part of any development process. Automated testing is the practice of using software tools to automatically run tests against a piece of code, and it has several advantages over manual testing. Automated tests are faster, more accurate, and more consistent than manual tests, and they can be run more frequently and with less effort. This makes it easier to catch bugs early in the development cycle, which in turn reduces the time and cost of fixing them.
+
+Automated testing also improves the quality and maintainability of code. By running tests automatically, developers can ensure that changes to the codebase do not break existing functionality. This makes it easier to make changes to the codebase over time without introducing regressions. Furthermore, automated tests serve as documentation for the code, making it easier for other developers to understand how it works and how to modify it. All in all, automated testing is an essential part of modern software development, and it's well worth the investment to make it a part of your development process.
+
 ## What is RSpec?
 RSpec is a popular testing framework for Ruby on Rails applications. It provides a simple, readable syntax for writing tests, making it easy to write expressive and accurate tests for your application. In this article, we will discuss the basics of RSpec and show you how to add the RSpec gem to your Rails application. By the end of this article, you will have a solid understanding of how to use RSpec to test your Rails application, and you'll be able to write your own tests for your application.
 
