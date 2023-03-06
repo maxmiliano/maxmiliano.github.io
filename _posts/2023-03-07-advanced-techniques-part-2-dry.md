@@ -170,4 +170,4 @@ By using shared examples, you can easily reuse common test logic across differen
 
 We hope this article has inspired you to start using shared examples in your own projects. Whether you're a beginner or an experienced Rails developer, shared examples can help you write better tests and save time in the long run.
 
-Don't forget to subscribe to our newsletter to be the first to know about our next articles. Happy testing!
+Don't forget to [subscribe to our newsletter](http://eepurl.com/igx0pj){:target='_blank'} to be the first to know about our next articles. Happy testing!
