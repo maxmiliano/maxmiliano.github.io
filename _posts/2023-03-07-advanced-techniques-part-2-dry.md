@@ -1,5 +1,5 @@
 ---
-title: "RSpec for Rails: Advanced Techniques #2 - DRY Testes"
+title: "RSpec for Rails: Advanced Techniques #2 - Don't Repeat Yourself"
 author: Max
 tags:
   - Ruby
