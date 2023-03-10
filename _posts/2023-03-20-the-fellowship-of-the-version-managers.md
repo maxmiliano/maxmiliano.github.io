@@ -8,6 +8,8 @@ tags:
   - ASDF
   - tools
   - Software Engineer
+categories:
+  - Tech but funny
 comments: true
 related: true
 date: 2023-03-20 07:31 +0100
