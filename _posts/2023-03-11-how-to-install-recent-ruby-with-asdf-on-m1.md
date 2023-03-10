@@ -23,7 +23,7 @@ header:
   overlay_filter: 0.65
 ---
 
-If you're having trouble installing Ruby version 3.2 using ASDF on your M1 Macbook, you're not alone. The standard commands `asdf plugin add ruby` and `asdf install ruby 3.2.0` may not work and can return an error message indicating that you need to install `psych` and other dependencies that you may already have installed. Don't worry though, there's a simple workaround that can help you get around this issue.
+If you're having trouble installing Ruby version 3.2 using ASDF on your M1 Macbook, you're not alone. The standard commands `asdf plugin add ruby` and `asdf install ruby 3.2.1` may not work and can return an error message indicating that you need to install `psych` and other dependencies that you may already have installed. Don't worry though, there's a simple workaround that can help you get around this issue.
 
 First, try adding the following environment variable to your terminal:
 
@@ -34,10 +34,10 @@ $ export RUBY_CONFIGURE_OPTS="--with-zlib-dir=$(brew --prefix zlib) --with-opens
 Once you've added this environment variable, try running the install command again:
 
 ~~~sh
-asdf install ruby 3.2.0
+asdf install ruby 3.2.1
 ~~~
 
 This should help you successfully install Ruby version 3.2 using ASDF on your M1 Macbook. Keep in mind that this workaround may become obsolete as the issue is fixed in the future, but for now, this is a quick and easy solution that you can use.
 
-More details about this may be found in [this issue](https://github.com/asdf-vm/asdf-ruby/issues/328 ){target: _blank} from `asdf-ruby` repo.
+More details about this may be found in [this issue](https://github.com/asdf-vm/asdf-ruby/issues/328 ){:target="_blank"} from `asdf-ruby` repo.
 {: .notice--info}
