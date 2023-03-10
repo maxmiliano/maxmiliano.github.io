@@ -1,5 +1,5 @@
 ---
-title: "Croissants, Chinese Food and Payments: My First Week at SeQura"
+title: "Croissants, Chinese Food and Payments: My First Days at SeQura"
 subtile: "Joining a big fintech in the amazing city of Barcelona"
 author: Max
 tags: 
