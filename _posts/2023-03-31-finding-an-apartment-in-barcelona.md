@@ -8,7 +8,7 @@ tags:
   - personal
   - Abroad
 categories:
-  - Personall
+  - Personal
 comments: true
 related: true
 date: 2023-03-31 07:53 +0100
