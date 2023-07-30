@@ -13,7 +13,7 @@ lunr:
 
 timezone: America/Sao_Paulo
 
-paginate: 5
+paginate: 10
 paginate_path: /page:num/
 
 analytics:
