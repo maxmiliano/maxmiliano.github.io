@@ -13,4 +13,5 @@ group :jekyll_plugins do
   # gem 'jekyll-spaceship'
   gem 'jekyll-paginate'
   # gem 'jekyll-archives'
+  gem 'jemoji'
 end
