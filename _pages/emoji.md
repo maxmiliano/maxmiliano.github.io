@@ -238,11 +238,15 @@ author_profile: true
 | :busstop: `:busstop:` | :barber: `:barber:` | :hotsprings: `:hotsprings:` |
 | :checkered_flag: `:checkered_flag:` | :crossed_flags: `:crossed_flags:` | :izakaya_lantern: `:izakaya_lantern:` |
 | :moyai: `:moyai:` | :circus_tent: `:circus_tent:` | :performing_arts: `:performing_arts:` |
-| :round_pushpin: `:round_pushpin:` | :triangular_flag_on_post: `:triangular_flag_on_post:` | :jp: `:jp:` |
+| :round_pushpin: `:round_pushpin:` | :triangular_flag_on_post: `:triangular_flag_on_post:` 
+
+## Flags
+
+| :brazil: `:brazil:` | :es: `:es: ` |  :eu: `:eu:` |
 | :kr: `:kr:` | :cn: `:cn:` | :us: `:us:` |
-| :fr: `:fr:` | :es: `:es:` | :it: `:it:` |
+| :de: `:de:` | :fr: `:fr:` | :it: `:it:` |
 | :ru: `:ru:` | :gb: `:gb:` | :uk: `:uk:` |
-| :de: `:de:` |
+| :lithuania: `:lithuania:` | :jp: `:jp:` | :portugal: `:portugal:` | 
 
 ## Symbols
 
