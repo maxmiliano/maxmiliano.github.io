@@ -17,8 +17,8 @@ layout: single
 classes: wide
 excerpt: "An exploration of the fresh features in Rails 7.1, from ActiveRecord enhancements to the introduction of Bun for JavaScript. A release made even more special with subtle literary nods!"
 header:
-  teaser: assets/images/hellomax_a_majestic_red_train_e4b63e9c-ebb6-4aec-8919-89264e2fa8c2.png
-  overlay_image: assets/images/hellomax_a_majestic_red_train_e4b63e9c-ebb6-4aec-8919-89264e2fa8c2.png
+  teaser: assets/images/helloMax_A_dreamlike_illustration_of_a_train_in_Egypt_849f0660-ea5b-4be2-943f-593434b9f09e.png
+  overlay_image: assets/images/helloMax_A_dreamlike_illustration_of_a_train_in_Egypt_849f0660-ea5b-4be2-943f-593434b9f09e.png
   overlay_filter: 0.65
 ---
 
