@@ -11,8 +11,8 @@ tags:
   - Storytelling
 comments: true
 related: true
-date: 2023-10-14 08:20 +0200
-last_modified_at: 2023-10-14 08:20 +0200
+date: 2023-10-16 08:20 +0200
+last_modified_at: 2023-10-16 08:20 +0200
 tagline: "Exploring the Mysteries of Ruby's Spaceship"
 layout: single
 classes: wide
