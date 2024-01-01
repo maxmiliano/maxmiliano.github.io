@@ -7,8 +7,8 @@ tags:
   - OffTopic
 comments: true
 related: true
-date: 2024-01-01 11:20 -0300
-last_modified_at: 2024-01-01 11:20 -0300
+date: 2024-01-01 10:18 -0300
+last_modified_at: 2024-01-01 10:18 -0300
 tagline: "All the best to my fellow developers"
 layout: single
 classes: wide
