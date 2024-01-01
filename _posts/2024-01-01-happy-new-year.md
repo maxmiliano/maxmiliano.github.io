@@ -12,7 +12,7 @@ last_modified_at: 2024-01-01 10:18 -0300
 tagline: "All the best to my fellow developers"
 layout: single
 classes: wide
-excerpt: "Wish all you dreams come true, all deploys are successful and nothing bad happen to your servers."
+excerpt: "Wish all your dreams come true, all deploys are successful and nothing bad happen to your servers."
 header:
   teaser: assets/images/A_new_year_modern_technological_bc852095-7f3c-437e-948d-2838ed03415e.jpg
   overlay_image: assets/images/A_new_year_modern_technological_bc852095-7f3c-437e-948d-2838ed03415e.jpg
