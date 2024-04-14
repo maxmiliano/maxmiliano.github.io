@@ -11,7 +11,7 @@ comments: true
 related: true
 date: 2024-04-15 07:15 +0200
 last_modified_at: 2024-04-15 07:15 +0200
-tagline: "Discover the synergies and culture of a fintech merger from a backend engineer’s perspective"
+tagline: "Exploring the world of fintech through Regate and Qonto"
 layout: single
 classes: wide
 excerpt: "Come with me as I delve into the culture, challenges, and opportunities that come with joining the Regate's Banking team under Qonto's innovative umbrella."
