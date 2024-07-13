@@ -22,7 +22,7 @@ header:
 ---
 As I take my first steps as a Backend Engineer at Regate, now part of Qonto, I'm thrilled by the opportunity to be part of such a dynamic moment in fintech. Last week marked not only the beginning of a new role, but the start of an exciting chapter at a company that's reshaping financial services in Europe.
 
-[Regate](https://www.regate.io/), known for its innovative approach to business accounting management, join forces with [Qonto](https://qonto.com/en), a leading digital bank for SMEs and freelancers across four European countries. This partnership represents a significant step forward, combining technology-driven financial solutions with user-centric services, promising groundbreaking developments in the fintech ecosystem. And I am very excited to be part of this transformative moment.
+[Regate](https://www.regate.io/){:target="_blank"}, known for its innovative approach to business accounting management, join forces with [Qonto](https://qonto.com/en){:target="_blank"}, a leading digital bank for SMEs and freelancers across four European countries. This partnership represents a significant step forward, combining technology-driven financial solutions with user-centric services, promising groundbreaking developments in the fintech ecosystem. And I am very excited to be part of this transformative moment.
 
 Joining Regate and Qonto at such a pivotal time feels like a privilege. I am optimistic about the contributions I can make and the personal growth I will experience. As I continue on this journey, I look forward to sharing more insights and stories from the heart of fintech innovation.
 
