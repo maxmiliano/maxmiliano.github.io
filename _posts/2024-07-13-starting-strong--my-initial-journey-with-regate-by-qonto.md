@@ -31,7 +31,7 @@ gallery:
   - url: /assets/images/qonto-barcelona-office-by-wttj.webp
     image_path: /assets/images/qonto-barcelona-office-by-wttj.webp
     alt: "Barcelona Office"
-    title: "Qonto's Barcelona Office in Barcelona (Photo by Welcome to the Jungle)"
+    title: "Qonto's Office in Barcelona (Photo by Welcome to the Jungle)"
 ---
 Joining a new company is always a significant milestone, and my experience at Regate by Qonto has been nothing short of delightful. Starting in April, I've had the opportunity to witness and participate in a period of exciting changes and growth within the company.
 
@@ -58,4 +58,4 @@ Reflecting on my first few months at Regate, I am filled with gratitude and exci
 If you’re considering a career at a dynamic and welcoming company, I highly recommend [checking out opportunities at Qonto](https://refer.hellotrusty.io/rkacvbc3ld){:target="_blank"}. Feel free to reach out if you have any questions or want to know more about my experience!
 {: .notice--info}
 
-{% include gallery %}
+{% include gallery caption='Some cool recent pictures' %}
